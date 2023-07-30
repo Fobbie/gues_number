@@ -1,8 +1,8 @@
 #include <iostream>
 #include <random>
 using namespace std;
-int number_gues(){
-	random_device rd;
+int number_gues() {
+  random_device rd;
   mt19937 gen(rd());
   uniform_int_distribution<int> dist(1, 100);
 
@@ -35,7 +35,7 @@ int number_gues(){
   return counter;
 }
 int main() {
-  
-	number_gues();
+  cout << "Hello this is my first programm in C++, wish me luck in future)" << endl;
+  number_gues();
   return 0;
 }
